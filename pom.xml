@@ -21,26 +21,20 @@
     <module>webapp</module>
   </modules>
 
- /* <distributionManagement>
-        <repository>
-        <id>site-server</id>
+ <distributionManagement>
+    <repository>
+        <id>releases</id>
         <name>Test Project Site</name>
-        <url>file:///tmp/maven-project-site</url>
+       <url>http://localhost:8081/nexus/content/repositories/sampleres/</url>
     </repository>
-  </distributionManagement>*/
-         
-  <distributionManagement>
-  <repository>
-    <id>releases</id>
-    <!-- CHANGE HERE by your team nexus server -->
-    <url>http://localhost:8081/nexus/content/repositories/sampleres/</url>
-  </repository>
-  <snapshotRepository>
+    <snapshotRepository>
     <id>snapshots</id>
     <!-- CHANGE HERE by your team nexus server -->
     <url>http://localhost:8081/nexus/content/repositories/samlplesnapshot/</url>
   </snapshotRepository>
-</distributionManagement>
+  </distributionManagement>
+         
+ 
 
   <build>
     <plugins>
