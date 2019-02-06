@@ -25,12 +25,12 @@
     <repository>
         <id>releases</id>
         <name>Test Project Site</name>
-       <url>http://localhost:8081/nexus/content/repositories/sampleres/</url>
+       <url>http://13.233.232.101:8081/repository/maven-releases/</url>
     </repository>
     <snapshotRepository>
     <id>snapshots</id>
     <!-- CHANGE HERE by your team nexus server -->
-    <url>http://localhost:8081/nexus/content/repositories/samlplesnapshot/</url>
+    <url>http://13.233.232.101:8081/repository/maven-snapshots/</url>
   </snapshotRepository>
   </distributionManagement>
          
